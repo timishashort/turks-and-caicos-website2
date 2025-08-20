@@ -1,0 +1,56 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fefefe;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* Semantic layout styles */
+header, main, footer {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #00a6a6; /* turquoise ocean feel */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 5px solid #
+
+  margin: 0 0 20px 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Clear floats */
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Links */
+a {
+  color: #006699;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+  color: #666;
